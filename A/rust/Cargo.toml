@@ -1,13 +1,1 @@
-[package]
-name = "zsensi_bridge"
-version = "0.1.0"
-edition = "2021"
-
-[lib]
-name = "zsensi_bridge"
-crate-type = ["cdylib"]
-
-[dependencies]
-lazy_static = "1.4"
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
+[package]\nname = "my_crate"\nversion = "0.1.0"\nedition = "2021"\n\n[lib]\ncrate-type = ["cdylib"]\n
